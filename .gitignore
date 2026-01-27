@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Ignore raw datasets
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.json
