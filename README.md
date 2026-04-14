@@ -1,91 +1,93 @@
-# 🚗 Toronto Motor Vehicle Collision Analysis  
-### 📊 Capstone Project – Master of Data Analytics
+<h1 align="center">🚗 Toronto Motor Vehicle Collision Analysis</h1>
+<h3 align="center">📊 Capstone Project – Master of Data Analytics</h3>
+
+<p align="center">
+  <b>Real-world Data | Machine Learning | Power BI Dashboard</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Models-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
 ---
 
 ## 📌 Project Overview  
-This project analyzes **motor vehicle collision data in Toronto** using real-world data from the **Toronto Police Service Open Data Portal**.
 
-The objective is to identify **patterns in collisions**, understand **high-risk factors**, and build **predictive models** to estimate the likelihood of fatal accidents.
+This project analyzes **motor vehicle collisions in Toronto** using real-world data from the **Toronto Police Service Open Data Portal**.
 
-This project combines:
-- Python (Data Analysis & Machine Learning)
-- Power BI (Interactive Dashboard)
-- Data Visualization & Storytelling
+The goal is to:
+- Identify **collision patterns**
+- Detect **high-risk locations & time periods**
+- Build **predictive models** for fatal accident risk
+- Deliver **actionable insights** using dashboards
 
 ---
 
 ## 📂 Dataset  
-- **Source:** Toronto Police Service Open Data  
-- **Records:** 770,000+ collisions  
-- **Time Period:** 2014 – 2025  
+
+- 📊 **770,000+ collision records**  
+- 📅 **Time Period:** 2014 – 2025  
+- 📍 Includes **temporal, spatial, and road-user variables**
 
 ---
 
 ## ⚙️ Project Workflow  
 
-### 1️⃣ Data Preprocessing  
-- Removed duplicates  
-- Handled missing values  
-- Converted data types  
-- Standardized categorical variables  
-
-### 2️⃣ Feature Engineering  
-- Night indicator  
-- Weekend indicator  
-- Rush hour indicator  
-
-### 3️⃣ Exploratory Data Analysis (EDA)  
-- Yearly and monthly trends  
-- Day-of-week patterns  
-- Hourly collision distribution  
-- Neighbourhood & division hotspots  
+✔ Data Cleaning & Preprocessing  
+✔ Feature Engineering (Rush Hour, Night, Weekend)  
+✔ Exploratory Data Analysis  
+✔ Power BI Dashboard Development  
+✔ Machine Learning Modeling  
 
 ---
 
-## 📊 Power BI Dashboard  
+## 📊 Dashboard Preview  
 
-### 🔹 Dashboard Home  
-![Dashboard Home](home.png)
+### 🏠 Dashboard Home  
+![Dashboard Home](Toronto_MVC_Capstone_page-0001.jpg)
 
-### 🔹 Collision Overview  
-![Overview](overview.png)
+### 📊 Collision Overview  
+![Overview](Toronto_MVC_Capstone_page-0002.jpg)
 
-### 🔹 Neighbourhood Analysis  
-![Neighbourhood](neighbourhood.png)
+### 🏙️ Neighbourhood Analysis  
+![Neighbourhood](Toronto_MVC_Capstone_page-0003.jpg)
 
-### 🔹 Time Analysis  
-![Time Analysis](time.png)
+### ⏱️ Time Analysis  
+![Time](Toronto_MVC_Capstone_page-0004.jpg)
 
-### 🔹 Geography Analysis  
-![Geography](geography.png)
+### 🌍 Geography Analysis  
+![Geography](Toronto_MVC_Capstone_page-0005.jpg)
 
-### 🔹 Division Analysis  
-![Division](division.png)
+### 🏢 Division Analysis  
+![Division](Toronto_MVC_Capstone_page-0006.jpg)
 
-### 🔹 Decomposition Tree  
-![Decomposition Tree](decomposition.png)
+### 🌳 Decomposition Tree  
+![Decomposition](Toronto_MVC_Capstone_page-0007.jpg)
 
-### 🔹 Key Influencers  
-![Key Influencers](key_influencers.png)
+### 🔍 Key Influencers  
+![Key Influencers](Toronto_MVC_Capstone_page-0008.jpg)
 
-### 🔹 Methodology  
-![Methodology](methodology.png)
+### 🧠 Methodology  
+![Methodology](Toronto_MVC_Capstone_page-0009.jpg)
 
-### 🔹 Recommendations  
-![Recommendations](recommendations.png)
+### 💡 Recommendations  
+![Recommendations](Toronto_MVC_Capstone_page-0010.jpg)
 
 ---
 
 ## 🔍 Key Insights  
 
-- 📈 Collision frequency peaks during **afternoons (12 PM – 6 PM)**  
-- 📅 **Fridays** have the highest collision volume  
-- 🍂 **Late summer & early fall (September)** show increased activity  
-- 📍 Hotspots:
-  - Wexford/Maryvale  
-  - Division D42  
-- 🚶 Pedestrians are more vulnerable to severe outcomes  
+📈 Peak collisions during **afternoon (12 PM – 6 PM)**  
+📅 **Fridays** show highest collision frequency  
+🍂 **Late summer (September)** sees increased accidents  
+📍 Hotspots identified:
+- Wexford/Maryvale  
+- Division D42  
+
+🚶 Pedestrians are at **higher risk of severe injuries**
 
 ---
 
@@ -96,51 +98,57 @@ This project combines:
 - Random Forest  
 - XGBoost  
 
-### Final Model:
+### 🏆 Final Model:
 **Tuned Random Forest**
 
-### Performance:
+### 📊 Performance:
 - Accuracy: ~67%  
 - Recall (Fatal): ~44%  
 - Precision: ~25%  
 
-📌 Focus was on **recall**, as detecting fatal collisions is more critical than overall accuracy.
+📌 Focus on **recall** to detect more high-risk cases
 
 ---
 
 ## ⚠️ Challenges  
 
-- Class imbalance (~17% fatal cases)  
-- Missing real-world variables (weather, speed, driver behavior)  
+- Imbalanced dataset (~17% fatal cases)  
+- Missing real-world features (weather, speed, behavior)  
 - Precision vs Recall trade-off  
 
 ---
 
 ## 💡 Recommendations  
 
-- Target enforcement during **peak hours (afternoon & Fridays)**  
-- Focus on **high-risk areas**  
-- Improve **road infrastructure & safety measures**  
-- Increase **public awareness campaigns**  
+✔ Target enforcement during **peak hours**  
+✔ Focus on **high-risk neighbourhoods**  
+✔ Improve **infrastructure & traffic control**  
+✔ Increase **public safety awareness**
 
 ---
 
-## 🛠️ Tools & Technologies  
+## 🛠️ Tech Stack  
 
-- Python (Pandas, NumPy, Scikit-learn)  
-- Power BI  
-- Machine Learning  
-- Data Visualization  
+- 🐍 Python (Pandas, NumPy, Scikit-learn)  
+- 📊 Power BI  
+- 🤖 Machine Learning  
+- 📈 Data Visualization  
 
 ---
 
 ## 👨‍💻 Contributors  
 
-- Sumit Chhillar  
+- **Sumit Chhillar**  
 - Team Members  
 
 ---
 
-## ⭐ Conclusion  
+## ⭐ Final Thoughts  
 
-This project demonstrates how **data analytics and machine learning** can be used to solve **real-world public safety problems** and support **data-driven decision-making**.
+This project highlights how **data analytics + machine learning** can solve **real-world urban safety problems** and support **data-driven decision-making**.
+
+---
+
+## 📬 Let’s Connect  
+
+If you’re interested in **Data Analytics / Business Intelligence roles**, feel free to connect!
